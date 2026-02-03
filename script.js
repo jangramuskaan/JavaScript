@@ -1,3 +1,28 @@
+// let obj = {
+//     name : "Suhani",
+//     address : "gurgaon",
+//     age:18
+// };
+
+// obj.age= 19    // to update the value 
+// console.log(obj);
+
+// const para = document.querySelector("p")  // returns only the first matching element 
+// para.innerText = "Hello World!"
+// para.style.color = "blue"
+// console.log(para);
+
+// const para = document.getElementsByClassName("para")  // returns all the matching elements in the form of HTML collection
+// para[0].innerText = "Hello World!"
+// para[0].style.color = "blue"
+// console.log(para);
+
+// const para2 = document.querySelectorAll(".para")  // returns all the matching elements in the form of NodeList
+// para2[0].innerText = "Hello World!"
+// para2[0].style.color = "blue"
+// console.log(para2);
+
+
 // function first() {
 // }
 // function second() {
@@ -47,9 +72,6 @@
 // }, 1000);
 
 
-
-
-
 // const name = document.querySelector('#name');
 // const btn = document.querySelector('.btn');
 // const list = document.querySelector('.list');
@@ -83,7 +105,6 @@
 // print(callback)
 
 
-
 // function print(num) {
 //     setTimeout(() => {
 //         console.log("inside print")
@@ -95,6 +116,7 @@
 //     console.log("inside callbak")
 // }
 // print(sample)
+
 
 
 
