@@ -1,23 +1,23 @@
 // let obj = {
-//     name : "Suhani",
-//     address : "gurgaon",
-//     age:18
+//     name : "Muskaan Jangra",
+//     address : "Haryana",
+//     age:17
 // };
 
-// obj.age= 19    // to update the value 
+// obj.age= 18    
 // console.log(obj);
 
-// const para = document.querySelector("p")  // returns only the first matching element 
+// const para = document.querySelector("p") 
 // para.innerText = "Hello World!"
 // para.style.color = "blue"
 // console.log(para);
 
-// const para = document.getElementsByClassName("para")  // returns all the matching elements in the form of HTML collection
+// const para = document.getElementsByClassName("para")  
 // para[0].innerText = "Hello World!"
 // para[0].style.color = "blue"
 // console.log(para);
 
-// const para2 = document.querySelectorAll(".para")  // returns all the matching elements in the form of NodeList
+// const para2 = document.querySelectorAll(".para")  
 // para2[0].innerText = "Hello World!"
 // para2[0].style.color = "blue"
 // console.log(para2);
@@ -121,3 +121,4 @@
 
 
     
+
