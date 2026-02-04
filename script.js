@@ -118,7 +118,25 @@
 // print(sample)
 
 
-
+const p= new Promise((resolve, reject) => {             
+    let done=true;
+    setTimeout(() => {
+        if (done) {
+            resolve({name:"Muskaan", age:18})
+        } else {
+            rej("Work has not been completed")
+        }
+        //rehect()
+    }, 5000)
+})
+p.then((data) => {
+    console.log(data.name)
+}).catch((err) => {
+    console.log(err)
+}).finally(() => {
+    console.log("Finally Back")
+})
 
     
+
 
